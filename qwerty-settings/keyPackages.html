@@ -82,7 +82,7 @@
 				<div class="table">
 					{{- range $index, $keyPackage := $keyPackages -}}
 						<div class="flex-row">
-							<div>{{icon "shield-lock" style="font-size:2em;"}}</div>
+							<div style="font-size:2em;">{{icon "shield-lock"}}</div>
 							<div class="flex-grow nowrap">
 								<div class="bold margin-none">{{$keyPackage.GeneratorName}}</div>
 								<div class="text-sm text-gray margin-bottom">{{$keyPackage.CreateDate | longDate }}</div>
