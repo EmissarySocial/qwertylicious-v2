@@ -1,5 +1,5 @@
 {
-	templateId: user-outbox
+	templateId: qwerty-outbox
 	templateRole: user-outbox
 	category: Special
 	model: Outbox
@@ -7,8 +7,8 @@
 	description:Profile displays everything about a user, including their inbox and outbox information
 	icon: inbox
 	extends: ["base-social", "base-intent"]
-  containedBy: []
-  tagPaths: ["statusMessage"]
+    containedBy: []
+    tagPaths: ["statusMessage"]
 	tagUrl:"/search?q="
 	
 	bundles: {

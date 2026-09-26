@@ -1,9 +1,9 @@
 {
-	templateId: user-inbox
+	templateId: qwerty-inbox
 	templateRole: user-inbox
 	category: Special
 	model: Inbox
-	label: Default Inbox
+	label: Qwertylicious Inbox
 	description: A simple inbox with a sidebar for folders and several feed layouts
 	icon: inbox
 	extends: ["base-social"]
